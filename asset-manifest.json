@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/rubio-finance/static/css/main.ce4e6ac7.css",
-    "main.js": "/rubio-finance/static/js/main.a00b264e.js",
+    "main.js": "/rubio-finance/static/js/main.ff6cd151.js",
     "index.html": "/rubio-finance/index.html",
     "main.ce4e6ac7.css.map": "/rubio-finance/static/css/main.ce4e6ac7.css.map",
-    "main.a00b264e.js.map": "/rubio-finance/static/js/main.a00b264e.js.map"
+    "main.ff6cd151.js.map": "/rubio-finance/static/js/main.ff6cd151.js.map"
   },
   "entrypoints": [
     "static/css/main.ce4e6ac7.css",
-    "static/js/main.a00b264e.js"
+    "static/js/main.ff6cd151.js"
   ]
 }
