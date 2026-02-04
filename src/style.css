@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: radial-gradient(circle at top, #1e293b, #0f172a 70%);
+  color: white;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 25px;
+  animation: fadeDown 0.6s ease;
+}
+
+.logo {
+  font-size: 40px;
+  background: linear-gradient(135deg, #38bdf8, #6366f1);
+  padding: 12px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.6);
+}
+
+.subtitle {
+  font-size: 13px;
+  color: #94a3b8;
+  margin-top: -5px;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 650px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 18px;
+  background: rgba(17, 24, 39, 0.85);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.6);
+  animation: fadeUp 0.6s ease;
+}
+
+/* SALDO */
+.saldo {
+  text-align: center;
+  margin: 20px 0 25px;
+  font-size: 22px;
+  font-weight: 600;
+  transition: transform 0.2s ease, color 0.3s ease;
+}
+
+.saldo:hover {
+  transform: scale(1.05);
+}
+
+.positivo { color: #22c55e; }
+.negativo { color: #ef4444; }
+
+/* FORM */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.form input,
+.form select {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+}
+
+.form button {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  background: linear-gradient(90deg, #38bdf8, #0ea5e9);
+  transition: all 0.2s ease;
+}
+
+.form button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(56, 189, 248, 0.4);
+}
+
+/* LISTA */
+.list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  animation: slideIn 0.3s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.list li:hover {
+  transform: scale(1.02);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.entrada {
+  background: rgba(34, 197, 94, 0.15);
+  border-left: 5px solid #22c55e;
+}
+
+.saida {
+  background: rgba(239, 68, 68, 0.15);
+  border-left: 5px solid #ef4444;
+}
+
+.list button {
+  background: transparent;
+  border: none;
+  color: #ef4444;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+.list button:hover {
+  transform: scale(1.2);
+}
+
+/* ANIMAÇÕES */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeDown {
+  from { opacity: 0; transform: translateY(-15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateX(-10px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+.logo-img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border-radius: 14px;
+  padding: 6px;
+  background: linear-gradient(135deg, #38bdf8, #6366f1);
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.5);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 25px;
+  animation: fadeDown 0.6s ease;
+}
+
+.subtitle {
+  font-size: 13px;
+  color: #94a3b8;
+  margin-top: -5px;
+}
